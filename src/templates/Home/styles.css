@@ -1,0 +1,10 @@
+.search_container {
+    margin-bottom: 35px;
+}
+
+.search_container h1 {
+    margin-bottom: 20px;
+    background-color: #222;
+    color: #ffbb33;
+    padding: .5em 1em;
+}

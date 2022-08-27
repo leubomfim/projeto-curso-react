@@ -1,0 +1,33 @@
+.btn_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #222;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #ffbb33;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.btn:disabled {
+    opacity: 0.7;
+    cursor:not-allowed;
+    background-color: #888;
+}
+
+.btn:disabled:hover {
+    transform: none;
+    color: #ffbb33;
+}
+
+.btn:hover {
+    transform: scale(1.10);
+    color: #f6c460;
+}
