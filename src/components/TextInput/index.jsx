@@ -1,9 +1,9 @@
 import './styles.css'
 
-export const TextInput = ({inputValue, actionFn, type, placeholder}) => (
+export const TextInput = ({inputValue, handleChange, type, placeholder}) => (
     <input 
     value={inputValue}
-    onChange={actionFn}
+    onChange={handleChange}
     type={type}
     placeholder={placeholder} 
   />
