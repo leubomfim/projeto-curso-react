@@ -52,7 +52,6 @@ const Home = () => {
 
   return (
     <Container>
-      <p>{new Date().toLocaleString('pt-br')}</p>
       <div className="search_container">
         {searchValue.length > 0 && <h1>Buscando por: {searchValue}</h1>}
 
